@@ -1,0 +1,19 @@
+#card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 250px;
+    width: 400px;
+    text-align: center;
+    padding-top: 60px;
+    /* background-color: rgb(109, 109, 229); */
+    border-radius: 10px;
+    font-size: 19px ;
+
+}
+#whole{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    padding-top: 50px;
+
+}
