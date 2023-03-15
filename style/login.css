@@ -1,63 +1,92 @@
-body{
-    margin: 0%;
-    padding: 0%;
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
-#btn{
-    padding-top: 7px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 7px;
-    border: none;
-    background-color: #4caaf7;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #f7faff;
+
+html,body{
+background-image: url("https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8&w=1000&q=80");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
 }
-.nav{
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    padding-left: 10px;
-    padding-right: 80px;
-    background-color: #f7faff;
-    mix-blend-mode:lighten;
+
+.container{
+height: 100%;
+align-content: center;
 }
-.nav-items{
-    display: flex;
-    gap: 2rem;
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
 }
-.navi:hover{
-    /* border-bottom: black; */
-    color: #4caaf7;
-    cursor: pointer;
-   
-    /* border: 1px solid black; */
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #4caaf7;
 }
-.nav-items>a{
-    text-decoration: none;
-    color: #666666;
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
 }
-.nav-items>a:active{
-    color: #4caaf7;
+
+.card-header h3{
+color: white;
 }
-.navi{
-    font-size: 20px;
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
 }
-#login{
-    display: flex;
-    gap: 100px;
+
+.input-group-prepend span{
+width: 50px;
+background-color: #4caaf7;
+color: black;
+border:0 !important;
 }
-#text{
-    text-align: center;
-    background-color: white;
-    height: 50px;
-    border-radius: 10px;
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
 }
-#move{
-    padding-left: 100px;
+
+.remember{
+color: white;
 }
-#move>span{
-    color: #f7faff;
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #4caaf7;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: black;
+}
+
+.links a{
+margin-left: 4px;
 }
