@@ -83,10 +83,10 @@ color: black;
 background-color: white;
 }
 
-.links{
-color: black;
+.link{
+color: white;
 }
 
-.links a{
+.link    a{
 margin-left: 4px;
 }
